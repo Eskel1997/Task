@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RecruitmentTask.API.Auth;
 using RecruitmentTask.API.Extensions;
+using RecruitmentTask.API.Middleware;
 using RecruitmentTask.API.Validation;
 using RecruitmentTask.API.ViewModels;
 using RecruitmentTask.Core;
@@ -42,8 +43,8 @@ namespace RecruitmentTask.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IUserService, UserService>();
-            services.AddDbContext<RecruitmentTaskContext>(options =>
-                    options.UseNpgsql(this.Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<RecruitmentTaskContext>(options =>options.UseInMemoryDatabase("Database"));
+            services.AddScoped<RecruitmentTaskContext>();
             services.AddAutoMapper(typeof(EmployeeDTO), typeof(CreateCompanyViewModel));
             services.AddControllers();
             services.AddMediatR(typeof(EmployeeDTO));
@@ -69,9 +70,8 @@ namespace RecruitmentTask.API
             }
 
             app.UseRouting();
-
+            app.UseMiddleware<GlobalExceptionMiddleware>();
             app.UseSwaggerExt();
-
             app.UseAuthentication();
 
             app.UseMvc();

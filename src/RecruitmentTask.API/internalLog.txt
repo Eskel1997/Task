@@ -746,3 +746,84 @@
 2020-09-25 00:51:07.0946 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
 2020-09-25 00:51:07.1092 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
 2020-09-25 00:51:07.1092 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 17:38:39.0944 Info Message Template Auto Format enabled
+2020-09-25 17:38:39.1404 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 17:38:39.2799 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 17:38:39.2954 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 17:38:39.2954 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 17:38:39.3100 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 17:38:39.3624 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 17:38:39.3736 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 17:38:39.3736 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 17:49:03.5391 Info Message Template Auto Format enabled
+2020-09-25 17:49:03.6147 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 17:49:03.7099 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 17:49:03.7263 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 17:49:03.7371 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 17:49:03.7371 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 17:49:03.7876 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 17:49:03.8018 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 17:49:03.8018 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 17:57:13.5359 Info Message Template Auto Format enabled
+2020-09-25 17:57:13.5633 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 17:57:13.6725 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 17:57:13.6862 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 17:57:13.6862 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 17:57:13.6862 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 17:57:13.7475 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 17:57:13.7475 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 17:57:13.7475 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 17:58:05.8650 Info Message Template Auto Format enabled
+2020-09-25 17:58:05.9074 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 17:58:06.0429 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 17:58:06.0429 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 17:58:06.0680 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 17:58:06.0680 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 17:58:06.1580 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 17:58:06.1735 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 17:58:06.1735 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 18:18:12.4247 Info Message Template Auto Format enabled
+2020-09-25 18:18:12.4801 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 18:18:12.6037 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 18:18:12.6397 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 18:18:12.6610 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 18:18:12.6697 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 18:18:12.8851 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 18:18:12.9041 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 18:18:12.9315 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 18:20:00.2880 Info Message Template Auto Format enabled
+2020-09-25 18:20:00.3180 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 18:20:00.4255 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 18:20:00.4391 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 18:20:00.4391 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 18:20:00.4526 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 18:20:00.5082 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 18:20:00.5221 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 18:20:00.5221 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 18:21:03.7026 Info Message Template Auto Format enabled
+2020-09-25 18:21:03.7732 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 18:21:04.0010 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 18:21:04.0298 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 18:21:04.0452 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 18:21:04.0452 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 18:21:04.0972 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 18:21:04.1090 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 18:21:04.1090 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 18:29:30.9537 Info Message Template Auto Format enabled
+2020-09-25 18:29:31.0270 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 18:29:31.2269 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 18:29:31.2517 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 18:29:31.2658 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 18:29:31.2658 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 18:29:31.3229 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 18:29:31.3374 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 18:29:31.3374 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web
+2020-09-25 18:32:35.7616 Info Message Template Auto Format enabled
+2020-09-25 18:32:35.8023 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-25 18:32:36.0739 Info Adding target FileTarget(Name=task-alldata)
+2020-09-25 18:32:36.1128 Info Adding target FileTarget(Name=task-other-web)
+2020-09-25 18:32:36.1289 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-alldata' not found for logging rule: *.
+2020-09-25 18:32:36.1388 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'test-other-web' not found for logging rule: *.
+2020-09-25 18:32:36.2208 Info Validating config: TargetNames=task-alldata, task-other-web, ConfigItems=44, FilePath=E:\Projects\RecruitmentTask\src\RecruitmentTask.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-25 18:32:36.2377 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-alldata
+2020-09-25 18:32:36.2377 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: task-other-web

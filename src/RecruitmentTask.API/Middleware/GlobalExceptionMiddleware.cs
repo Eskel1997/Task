@@ -43,7 +43,14 @@ namespace RecruitmentTask.API.Middleware
 
             if (exception is UnauthorizedAccessException)
             {
-                throw new RecruitmentTaskException(ErrorCode.DatabaseSavingException);
+                throw new RecruitmentTaskException(ErrorCode.Unauthorized);
+            }
+
+            if (exception is RecruitmentTaskException recruitmentTaskException)
+            {
+                statusCode = recruitmentTaskException.ErrorCode.StatusCode;
+                errorCode = recruitmentTaskException.ErrorCode.Message;
+                message = string.IsNullOrEmpty(recruitmentTaskException.Message) ? errorCode : recruitmentTaskException.Message;
             }
 
             context.Response.ContentType = "application/json";

@@ -16,6 +16,7 @@ namespace RecruitmentTask.Core.Exceptions
         }
 
         public static ErrorCode DatabaseSavingException => new ErrorCode(nameof(DatabaseSavingException), HttpStatusCode.InternalServerError);
-        public static ErrorCode CompanyNotExist => new ErrorCode(nameof(CompanyNotExist));
+        public static ErrorCode CompanyNotExist => new ErrorCode(nameof(CompanyNotExist), HttpStatusCode.NotFound);
+        public static ErrorCode Unauthorized => new ErrorCode(nameof(Unauthorized), HttpStatusCode.Unauthorized);
     }
 }
