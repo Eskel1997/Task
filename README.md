@@ -5,5 +5,5 @@ Do uruchomienia wymagane jest środowisko Visual Studio 2019 (wykorzystano .NET 
 Po sklonowaniu projektu z repozytorium należy:
 * uruchomić plik RecruitmentTask.sln,
 * zbudować solucję (ctrl + shift + b),
-* upewnić się, że projektem startowym jest TodoApp.Api,
+* upewnić się, że projektem startowym jest RecruitmentTask.Api,
 * uruchomić aplikację (ctrl + f5).
